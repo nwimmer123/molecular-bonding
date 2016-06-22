@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # A-Frame Boilerplate
 
 Boilerplate for creating WebVR scenes using A-Frame.
@@ -86,3 +87,6 @@ If you wish to serve the site from a different port:
 ## License
 
 This program is free software and is distributed under an [MIT License](LICENSE).
+=======
+# molecular-bonding
+>>>>>>> a4fe66f1288e9cb3d32c3f4b2925221222403c57
