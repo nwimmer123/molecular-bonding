@@ -1,8 +1,9 @@
 {
-  "name": "aframe-boilerplate",
-  "description": "Boilerplate for creating WebVR scenes using A-Frame",
+  "name": "molecular-bonding",
+  "description": "Molecular Bonding Game",
   "version": "0.0.0",
   "license": "MIT",
+  "main": "server.js",
   "scripts": {
     "start": "budo --live --verbose --port 3000 --open",
     "deploy": "ghpages",
@@ -10,12 +11,27 @@
   },
   "devDependencies": {
     "budo": "^7.0.0",
-    "ghpages": "0.0.3"
+    "ghpages": "0.0.3",
+    "body-parser": "^1.14.1",
+    "connect": "^2.30.2",
+    "cookie-parser": "^1.4.0",
+    "express": "^4.13.3",
+    "express-session": "^1.12.1",
+    "html": "0.0.10",
+    "mongoose": "^4.3.0",
+    "nodemon": "^1.8.1",
+    "passport": "^0.3.2",
+    "passport-local": "^1.0.0",
+    "passport-local-mongoose": "^3.1.0",
+    "session-mongoose": "^0.5.2"
   },
   "keywords": [
     "aframe",
     "aframe-example",
     "aframe-scene",
     "aframe-boilerplate"
-  ]
+  ],
+  "dependencies": {
+    "aframe-extras": "^1.9.0"
+  }
 }
